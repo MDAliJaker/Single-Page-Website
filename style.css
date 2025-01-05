@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#Main{
+    height: 100%;
+    width: 100%;
+    background-color: White;
+    font-family: sans-serif;    
+}
+#Nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#nav-part1{
+    display: flex;
+}
+#btn{
+    color: #fff ;
+    background-color:rgb(152, 254, 0)!important;
+}
+
+#nav-part3 button{
+    padding: 7px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 15px;
+    background-color: #fff;
+}
+#nav-part1 h3{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+#nav-part1 i{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+#nav-part2 h2{
+    font-weight: 500;
+    font-size: 35px;
+    color: #8A2BE2;
+}
+#Main>h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 440px;
+    width: 370px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+}
+
+#img1{
+    transform: translate(-50%, -50%) rotate(-21deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-14deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-7deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 2.5%;
+    font-size: 20px;
+}
+#Main>i{
+    position: absolute;
+    bottom: 5%;
+    right: 2.5%;
+    font-size: 25px;
+}
