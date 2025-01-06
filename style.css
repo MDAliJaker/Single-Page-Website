@@ -27,7 +27,7 @@ html, body{
 }
 #btn{
     color: #fff ;
-    background-color:rgb(152, 254, 0)!important;
+    background-color:#8A2BE2!important;
 }
 
 #nav-part3 button{
@@ -55,7 +55,7 @@ html, body{
     color: #8A2BE2;
 }
 #Main>h1{
-    font-size: 200px;
+    font-size: 150px;
     text-transform: uppercase;
     position: absolute;
     top: 50%;
@@ -73,6 +73,7 @@ img{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 0.1px solid #8A2BE2;
     border-radius: 18px;
 }
 
